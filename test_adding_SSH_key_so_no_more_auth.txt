@@ -1,0 +1,21 @@
+It is so fucking tired to binding SSH keys between local machines and github ...
+
+In case of future reference:
+
+SSH keypair setup: https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278
+
+Generating new SSH key and add to ssh-agent: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+Testing SSH connection: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection
+
+Error permission denied: https://docs.github.com/en/authentication/troubleshooting-ssh/error-permission-denied-publickey
+
+
+One important note here
+
+ssh -vT git@github.com
+
+will ONLY check the generated keygen in /home/namyeukhanh/.ssh
+when set up connections between local machines and github
+
+Save SSH keygen in another location will be useless
