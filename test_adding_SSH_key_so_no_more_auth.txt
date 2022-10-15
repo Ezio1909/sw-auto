@@ -18,4 +18,8 @@ ssh -vT git@github.com
 will ONLY check the generated keygen in /home/namyeukhanh/.ssh
 when set up connections between local machines and github
 
-Save SSH keygen in another location will be useless
+Save SSH keygen in another location will be useless. Therefore, always make sure the generated keygen is inside /home/namyeukhanh/.ssh
+
+Now, it is likely that there will be another warning said that UNPROTECTED PRIVATE KEY FILE
+Check it out then: https://gist.github.com/zoxon/4e0e77e3be930d286d62
+
